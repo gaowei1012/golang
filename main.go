@@ -158,6 +158,6 @@ func main() {
 		v1.DELETE("/:id", shopDelete)
 	}
 
-	router.Run()
+	router.Run(":16680")
 
 }
